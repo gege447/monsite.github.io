@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel ="stylesheet" href="style.css"/>
+		<title> la souris </title>
+		<meta content = "CM" name="Cléo SAM-LOCK">
+		<link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg" />
+		
+	</head>
+	<body>
+	<div id="haut_page"></div>
+	<header>
+		<h1 align="center">La souris</h1>
+		<br/>
+		<p> La souris, un objet pourtant aujourd'hui si banal a révolutionné le monde de l'informatique en 1968.<p/>
+	</header>
+	<nav>
+		<h3>Index:</h3>
+		<a href="index.html"><h4>Histoire</h4></a>
+		<a href="fonctionnement.html"><h4>Le fonctionnement</h4></a>
+		<a href="quiz.html"><h4>Le quizz</h4></a>
+	</nav>
+	<section>
+		<h2 align="center">Le quizz</h2>
+		<br/>
+		<p>Afin de tester ce que vous avez retenu sur la souris <img src="images/souris_animal_petite.jpg" onMouseOut="src='images/souris_animal_petite.jpg'" onMouseOver="src='images/souris_animal.jpg'"/>...Oups pas celle-là😅!
+		Je parlais plutôt de cette souris <img src="images/souris_petite.jpg" onMouseOut="src='images/souris_petite.jpg'" onMouseOver="src='images/souris.jpg'"/>. Je vous propose ce petit quizz :
+		</p>
+		<h5>Question numéro 1:</h5><!--question avec le vrai faux(petite blague)-->
+			<p>La souris est-elle un animal? <button type="button" onclick="reponse1Vrai()"><h6>Vrai</h6></button>
+			<button type="button" onclick="reponse1Faux()"><h6>Faux</h6></button></p>
+			<p class="reponseFausse" id="ici_1"></p>
+		<p>Pour passer à la suite cliquez <a href="quizz_2.html">ici</a></p>
+		<p><a href="#haut_page">haut de page</a><p/>
+		<script src="java_script/java_quizz.js"></script>
+	</body>
+</html>
