@@ -1,0 +1,105 @@
+body{
+	font-family: 'Orbitron', sans-serif;
+	background-image:url(images/fond_d_ecran.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	background-color:black;
+}
+p{
+	color:yellow;
+	margin-left: 20px;
+	font-size:200%;
+}
+h1{
+	color:yellow;
+	font-size:500%;
+}
+a{
+	color:blue;
+	text-decoration:underline;
+}
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+h2{
+	font-size:250%;
+	margin-left: 20px;
+	color:yellow;
+}
+h4{
+	font-size:250%;
+}
+h3{
+	font-size:250%;
+	color:yellow;
+	margin-left: 0px;
+}
+nav{
+	margin-left:20px;
+	display:inline-block;
+	width:300px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+	background-color:#ADE8f4;
+	position:fixed;
+	opacity:0.5;
+	border:5px solid black;
+}
+section{
+	display:inline-block;
+	margin-left:400px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+	background-color:#03045E;
+	border:5px solid black;
+	margin-right:20px;
+	opacity:0.8;
+}
+header{
+	padding-top:10px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+	margin-left:20px;
+	margin-bottom:20px;
+	background-color:#00B4D8;
+	border:5px solid black;
+	opacity:0.8;
+}
+h5{
+	font-size:200%;
+	margin-left:20px;
+	color:yellow;
+}
+h6{
+	font-size:150%;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+form{
+	margin-left:20px;
+}
+.reponseFausse{
+	color:red;  
+}
+.reponseVrai{
+	color:green;
+	opacity:1;
+}
+.invisible{
+	display:none;
+}
+.lienAfficher{
+	font-size:200%;
+}
+.lienAfficherIci{
+	margin-left:20px;
+	font-size:200%;
+	color:yellow;
+}

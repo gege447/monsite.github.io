@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel ="stylesheet" href="style.css"/>
+		<title> la souris </title>
+		<meta content = "CM" name="Cléo SAM-LOCK">
+		<link rel="shortcut icon" type="image/x-icon" href="images/icon.jpg" />
+		
+	</head>
+	<body>
+	<div id="haut_page"></div>
+	<header>
+		<h1 align="center">La souris</h1>
+		<br/>
+		<p> La souris, un objet pourtant aujourd'hui si banal a révolutionné le monde de l'informatique en 1968.<p/>
+	</header>
+	<nav>
+		<h3>Index:</h3>
+		<h4>Vous ne pouvez pas acceder à l'index tant que vous faites le quizz</h4>
+	</nav>
+	<section>
+		<h2 align="center">Le quizz</h2>
+		<br/>
+		<h5>Question numéro 2 (sérieusement cette fois):</h5>
+			<p>Pourquoi le système à boule était-il problématique
+			<select id="choixQuestion2" name="choisissez la bonne réponse" onchange="choisirQuestion2()">
+				<option value="repondre" class="invisible"><h6></h6></option>
+				<option value="true"><h6>car il demandait un nettoyage regulier</h6></option>
+				<option value="false"><h6>car il ne permettait pas une grande précision</h6></option>
+				<option value="false"><h6>car il n'était pas confortable pour la main</h6></option>
+			</select>
+			</p>
+			<p class="reponseVrai" id="reponse2"></p><p class="reponseFausse" id="reponse2Faux"></p>
+		<p><h5 class="lienAfficher" id="suiteQuestion2_2"></h5><a class="lienAfficherIci" id="suiteQuestion2" href="quizz__3.html"></a></p>
+		<p><a href="#haut_page">haut de page</a><p/>
+		<script src="java_script/java_quizz.js"></script>
+	</body>
+</html>
